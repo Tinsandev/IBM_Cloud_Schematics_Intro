@@ -7,9 +7,9 @@ terraform {
     }
   }
 
-  provider "ibm" {
+/*   provider "ibm" {
   ibmcloud_api_key = "<api_key>"
-}
+} */
 
 variable "ibmcloud_api_key" {
   description = "API Key de la nube de IBM, generada en Manage (IAM) -> API Keys"
