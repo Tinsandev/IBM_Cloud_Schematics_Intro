@@ -1,7 +1,7 @@
 resource "ibm_container_cluster" "kubernetes_cluster" {
   name            = "terraform-cluster"
   datacenter      = "dal10"
-  machine_type    = "u3c.2x4"
+  machine_type    = "free"
   hardware        = "shared"
 
   no_subnet       = true
